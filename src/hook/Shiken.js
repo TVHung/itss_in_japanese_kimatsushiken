@@ -6,7 +6,7 @@ function Shiken(props) {
 
     const search = (string) => {
         let i = list.indexOf(string);
-        setIndex(i !== -1 ? i + 1 : null);
+        setIndex(i !== -1 ? i + 1 : "NaN");
     };
 
     return [index, search];
